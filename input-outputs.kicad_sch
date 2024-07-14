@@ -1822,126 +1822,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2022,6 +1902,126 @@
 					(at 0 0 270)
 					(length 0) hide
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2603,28 +2603,6 @@
 		)
 		(uuid "0fcef087-ef79-4f2b-a43f-5758b1b1bb9e")
 	)
-	(label "USART2_TX"
-		(at 59.69 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "344e002d-f9b4-4671-8d98-bf23ca5ae6a7")
-	)
-	(label "USART2_RX"
-		(at 59.69 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62333eb0-3977-449f-bb38-0894ff2f4541")
-	)
 	(label "SWDIO"
 		(at 69.85 144.78 180)
 		(fields_autoplaced yes)
@@ -2658,29 +2636,7 @@
 		)
 		(uuid "9b9bc3ca-828a-4a83-8c08-62e78fd1e54e")
 	)
-	(label "USART1_RX"
-		(at 30.48 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb9a5c13-3813-4500-89cb-1c9d59aca0db")
-	)
-	(label "USART1_TX"
-		(at 69.85 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee498af5-4fe6-424f-b139-c6913d318a63")
-	)
-	(hierarchical_label "USART2_TX"
+	(hierarchical_label "EXT_TX"
 		(shape input)
 		(at 59.69 77.47 180)
 		(fields_autoplaced yes)
@@ -2716,7 +2672,7 @@
 		)
 		(uuid "3718aef9-4af0-4ce2-9aa1-69009e34fcf6")
 	)
-	(hierarchical_label "USART1_RX"
+	(hierarchical_label "DBG_USART_RX"
 		(shape output)
 		(at 30.48 157.48 180)
 		(fields_autoplaced yes)
@@ -2740,7 +2696,7 @@
 		)
 		(uuid "46e5382a-fb8d-45f6-b2ad-1362bf5cccdd")
 	)
-	(hierarchical_label "USART1_TX"
+	(hierarchical_label "DBG_USART_TX"
 		(shape input)
 		(at 69.85 157.48 0)
 		(fields_autoplaced yes)
@@ -2752,7 +2708,7 @@
 		)
 		(uuid "5bbc3e10-5db5-465a-b7f4-f227f99fcc70")
 	)
-	(hierarchical_label "USART2_RX"
+	(hierarchical_label "EXT_RX"
 		(shape output)
 		(at 59.69 74.93 180)
 		(fields_autoplaced yes)
@@ -3713,6 +3669,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2881912"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f3a4a833-1ad7-4172-9ba5-07a3435b8514")
 		)
@@ -3829,6 +3794,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48192"
 			(at 39.37 129.54 0)
 			(effects
 				(font
@@ -4045,6 +4019,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2682282"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "25e91a2d-395b-4598-b319-3f9cb010f331")
 		)
@@ -4064,7 +4047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:VBUS")
 		(at 74.93 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4072,8 +4055,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e29c31de-1a8a-484f-b4bd-19770a3f9e18")
-		(property "Reference" "#PWR0106"
+		(uuid "d5ec0cc5-dc93-4518-891b-16b2306f44b3")
+		(property "Reference" "#PWR07"
 			(at 74.93 72.39 0)
 			(effects
 				(font
@@ -4082,7 +4065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VBUS"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -4108,7 +4091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -4118,12 +4101,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cc4d85b-2b22-4171-bd6d-4b2868ef02d8")
+			(uuid "1406f6c4-14df-4d9f-9321-71397d5e53fe")
 		)
 		(instances
 			(project "chroma-pixel-h743"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/cf3c6c38-1b0f-4722-9440-d8d8f6f0e2e1"
-					(reference "#PWR0106")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

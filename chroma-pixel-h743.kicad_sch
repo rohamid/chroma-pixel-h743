@@ -2376,26 +2376,6 @@
 			)
 			(uuid "fd93e37f-085d-4268-9655-434ccc5b5368")
 		)
-		(pin "USART1_TX" output
-			(at 104.14 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a68fb568-7749-4e65-b812-fa3f993f2df8")
-		)
-		(pin "USART1_RX" input
-			(at 104.14 90.17 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "39449922-3f80-4fbf-b032-2fbf0026b41d")
-		)
 		(pin "AUX_SDA" bidirectional
 			(at 104.14 100.33 180)
 			(effects
@@ -2486,26 +2466,6 @@
 			)
 			(uuid "edfa5791-e8fe-4761-bfc9-311746a6bff5")
 		)
-		(pin "USART2_TX" output
-			(at 104.14 105.41 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c156c34a-c0d2-45fe-b64d-c7f12ebd8c8b")
-		)
-		(pin "USART2_RX" input
-			(at 104.14 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9c89cbfd-c068-41e6-8c2a-6172651c246c")
-		)
 		(pin "SDRAM_ADD[0..12]" output
 			(at 154.94 39.37 0)
 			(effects
@@ -2515,6 +2475,46 @@
 				(justify right)
 			)
 			(uuid "d06a6a13-cd12-4dcf-a349-6a6b233b08d3")
+		)
+		(pin "DBG_USART_TX" output
+			(at 104.14 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "deb9bbeb-1271-407e-b05d-808190aee462")
+		)
+		(pin "DBG_USART_RX" input
+			(at 104.14 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2aed7545-e567-48ec-9575-895b896f7c81")
+		)
+		(pin "EXT_TX" output
+			(at 104.14 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6742b590-5f8e-4047-bc11-bd41babe4bc5")
+		)
+		(pin "EXT_RX" input
+			(at 104.14 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "743989bc-88bc-42e1-b2ce-15b85e790f69")
 		)
 		(instances
 			(project "chroma-pixel-h743"
@@ -3228,17 +3228,7 @@
 			)
 			(uuid "803966ff-9d76-452c-9ec7-77e1906d903d")
 		)
-		(pin "USART1_TX" input
-			(at 87.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e5c33a0d-c8c3-4231-871d-615634a92d9d")
-		)
-		(pin "USART1_RX" output
+		(pin "DBG_USART_RX" output
 			(at 87.63 90.17 0)
 			(effects
 				(font
@@ -3246,19 +3236,19 @@
 				)
 				(justify right)
 			)
-			(uuid "24d601b3-e079-42df-8f69-ec8be33d8fd8")
+			(uuid "8a8ba919-50dc-477e-a66b-8c5075b5e5ca")
 		)
-		(pin "USART2_TX" input
-			(at 87.63 105.41 0)
+		(pin "DBG_USART_TX" input
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aa240512-4934-4c21-9943-b690a6188f15")
+			(uuid "a8a18788-aa93-4f60-9381-57ab6af49131")
 		)
-		(pin "USART2_RX" output
+		(pin "EXT_RX" output
 			(at 87.63 107.95 0)
 			(effects
 				(font
@@ -3266,7 +3256,17 @@
 				)
 				(justify right)
 			)
-			(uuid "a473103f-fbe2-441c-94ef-984ac5d96d9d")
+			(uuid "b8a5a457-35a2-4d7f-9e12-19f64463355c")
+		)
+		(pin "EXT_TX" input
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59f182d0-4eec-40db-9c9b-bbeb778e0e29")
 		)
 		(instances
 			(project "chroma-pixel-h743"
