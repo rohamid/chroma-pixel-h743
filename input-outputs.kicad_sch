@@ -2581,6 +2581,26 @@
 		)
 		(uuid "fd599543-8cac-4e84-9ec0-ac3f208a4c68")
 	)
+	(text "This pin connected to MCU USART RX"
+		(exclude_from_sim no)
+		(at 33.02 160.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4572bef7-a6fa-4b4b-b14c-6fec8081f1fd")
+	)
+	(text "This pin connected to MCU USART TX"
+		(exclude_from_sim no)
+		(at 103.378 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a52f4fdd-cdd1-422e-a4c1-4842f08b7881")
+	)
 	(label "SWCLK"
 		(at 69.85 147.32 180)
 		(fields_autoplaced yes)
@@ -3000,7 +3020,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C146120"
+		(property "JLCPCB Part #" "C7430470"
 			(at 90.17 74.93 0)
 			(effects
 				(font

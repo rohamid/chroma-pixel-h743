@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.1"
+      "Version": "8.0.2"
     },
-    "CreationDate": "2024-05-14T09:23:25+07:00"
+    "CreationDate": "2024-07-15T20:50:26+07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "H743_LCD_dev",
-      "GUID": "48373433-5f4c-4434-945f-6465762e6b69",
+      "Name": "chroma-pixel-h743",
+      "GUID": "6368726f-6d61-42d7-9069-78656c2d6837",
       "Revision": "rev?"
     },
     "Size": {
@@ -24,12 +24,12 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.05,
+      "PadToTrack": 0.05,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.15,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
@@ -43,67 +43,67 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "H743_LCD_dev-F_Cu.gbr",
+      "Path": "chroma-pixel-h743-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In1_Cu.gbr",
+      "Path": "chroma-pixel-h743-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In2_Cu.gbr",
+      "Path": "chroma-pixel-h743-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In3_Cu.gbr",
+      "Path": "chroma-pixel-h743-In3_Cu.gbr",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In4_Cu.gbr",
+      "Path": "chroma-pixel-h743-In4_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-B_Cu.gbr",
+      "Path": "chroma-pixel-h743-B_Cu.gbr",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-F_Paste.gbr",
+      "Path": "chroma-pixel-h743-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-B_Paste.gbr",
+      "Path": "chroma-pixel-h743-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-F_Silkscreen.gbr",
+      "Path": "chroma-pixel-h743-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-B_Silkscreen.gbr",
+      "Path": "chroma-pixel-h743-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-F_Mask.gbr",
+      "Path": "chroma-pixel-h743-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "H743_LCD_dev-B_Mask.gbr",
+      "Path": "chroma-pixel-h743-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "H743_LCD_dev-Edge_Cuts.gbr",
+      "Path": "chroma-pixel-h743-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

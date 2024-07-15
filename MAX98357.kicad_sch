@@ -1475,7 +1475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NC"
+		(property "Value" "100K"
 			(at 69.85 97.7899 0)
 			(effects
 				(font
@@ -1511,7 +1511,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C60491"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -1603,9 +1603,9 @@
 		(at 67.31 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5af2ee9a-46ce-4bfd-9bbb-cddd3f166a4b")
 		(property "Reference" "R15"

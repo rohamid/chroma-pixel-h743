@@ -19992,7 +19992,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C60491"
 			(at 308.61 168.91 0)
 			(effects
 				(font
@@ -22803,7 +22803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 116.205 62.865 0)
 			(effects
 				(font
